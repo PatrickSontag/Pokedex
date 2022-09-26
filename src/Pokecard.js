@@ -7,9 +7,9 @@ function Pokecard({id, name, type, base_experience}) {
     let pokemonImage = `${pokemonAPI}${id}.png`
 
     return (
-        <div>
+        <div className="pokecard">
             <div>{name}</div>
-            <img>{pokemonImage}</img>
+            <img src={pokemonImage} alt={name}></img>
             <div>{id}</div>
             <div>{type}</div>
             <div>{base_experience}</div>
