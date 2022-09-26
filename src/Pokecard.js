@@ -8,11 +8,11 @@ function Pokecard({id, name, type, base_experience}) {
 
     return (
         <div className="pokecard">
-            <div>{name}</div>
+            <div className="name">{name}</div>
             <img src={pokemonImage} alt={name}></img>
-            <div>{id}</div>
-            <div>{type}</div>
-            <div>{base_experience}</div>
+            <div>ID: {id}</div>
+            <div>Type: {type}</div>
+            <div>XP: {base_experience}</div>
         </div>
     );
 }

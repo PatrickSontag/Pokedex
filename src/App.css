@@ -2,19 +2,31 @@
   text-align: center;
 }
 
+.pokedex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+
 .pokedex {
-  /* position: relative; */
-  border: black, 2px, solid;
-  width: 400px;
-  height: 100px;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .pokecard {
   background-color: grey;
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
+  width: 120px;
+  border-radius: 1rem;
+  border:  solid black 2px;
+  margin: 2px;
+}
+
+.name {
+  color: white;
+  font-size: 1.2rem;
 }
 
 
